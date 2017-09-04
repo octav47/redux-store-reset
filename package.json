@@ -1,0 +1,16 @@
+{
+  "name": "redux-store-reset",
+  "version": "1.0.0",
+  "description": "Reset redux store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redux",
+    "reset",
+    "store"
+  ],
+  "author": "Kir Tribunsky",
+  "license": "ISC"
+}
