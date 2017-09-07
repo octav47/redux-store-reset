@@ -9,7 +9,7 @@
     "store"
   ],
   "repository": {
-    "type: "git",
+    "type": "git",
     "url": "https://github.com/octav47/redux-store-reset.git"
   },
   "author": "Kir Tribunsky",
