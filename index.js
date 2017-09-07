@@ -1,17 +1,22 @@
-export const reducer = (combineReducers, options) => {
-    options = options || {}
+'use strict';
 
-    const resetType = options.type || 'RESET_STORE'
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var reducer = exports.reducer = function reducer(combineReducers, options) {
+    options = options || {};
 
-    const appReducer = combineReducers
+    var resetType = options.type || 'RESET_STORE';
 
-    const rootReducer = (state, action) => {
+    var appReducer = combineReducers;
+
+    var rootReducer = function rootReducer(state, action) {
         if (action.type === resetType) {
-            state = undefined
+            state = undefined;
         }
 
-        return appReducer(state, action)
-    }
+        return appReducer(state, action);
+    };
 
-    return rootReducer
-}
+    return rootReducer;
+};
